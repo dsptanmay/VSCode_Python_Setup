@@ -38,6 +38,11 @@ Click on install and wait for the installation to finish.
 
 ![Image 4](demo/img_4.png)
 
+Once the installation is finished, you should see a Python Version on the Status Bar:
+
+![Image 5](demo/img_4_b.png)
+
+
 Now we have the capability to edit Python Code on VSCode properly!
 
 Some of the features the Python Extension provides are:
