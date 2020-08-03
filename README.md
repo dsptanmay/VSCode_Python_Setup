@@ -73,3 +73,17 @@ back to the installation...
 
 The most up-to-date Python Language Server as of the making of this guide is  ```Pylance```
 
+To install Pylance, simply search for Pylance in the VSCode MarketPlace (***Extensions*** Panel)
+
+![Image 5](demo/img_5.png)
+
+The publisher should be **Microsoft**.
+
+
+Once it is installed, a window should popup asking you to make Pylance the default Language Server.
+
+![Image 6](demo/img_6.png)
+
+Click on **Yes, and Reload**. 
+
+Once the window has reloaded, the Pylance server should automatically start analyzing your open Python Files.
