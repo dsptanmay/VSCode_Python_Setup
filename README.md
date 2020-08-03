@@ -66,4 +66,5 @@ back to the installation...
 
 ----
 
-The most up-to-date Python Language Server as of the making of this guide is ```Pylance``
+The most up-to-date Python Language Server as of the making of this guide is  ```Pylance```
+
