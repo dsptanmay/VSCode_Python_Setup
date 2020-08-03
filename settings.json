@@ -1,0 +1,41 @@
+{
+    // ------------------------------ Workbench settings -----------------------------------
+    "workbench.colorTheme": "One Dark Darker",
+    "workbench.editor.showTabs": false,
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "explorer.sortOrder": "mixed",
+    "window.menuBarVisibility": "default",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true,
+    // ---------------------------------------- Editor Settings ---------------------------------------
+    "files.defaultLanguage": "${activeEditorLanguage}",
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 40,
+    "editor.suggestLineHeight": 40,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    // --------------------------------- Individual Extension Settings ------------------------- //
+    "activitusbar.alignment": "Right",
+    "python.analysis.cachingLevel": "Library",
+    "python.pythonPath": "python",
+    "python.experiments.enabled": false,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.suggestLineHeight": 40,
+        "editor.defaultFormatter": "ms-python.python"
+    }
+}
