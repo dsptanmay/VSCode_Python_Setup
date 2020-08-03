@@ -16,3 +16,4 @@ Download the file as per your device and run it to set it up.
 
 After the installation is complete, you should be greeted with a screen like this:
 
+![Image 1](images/img_1.png)
