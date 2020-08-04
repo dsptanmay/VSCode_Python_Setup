@@ -10,9 +10,14 @@ So, I decided to make my own guide!
 
 #### This guide also assumes that you have Python installed on your system already.
 
-### Step 1: Installing VSCode:
+Before we get started, here are is a common action that I will be referring to:
 
-This Step is pretty self - explanatory. To download VSCode, go to https://code.visualstudio.com/
+- Opening Settings.json/ adding lines to it.
+    - to open Settings.json, hit Ctrl+Shift+P and search for Settings JSON and select the option that says "Preferences: Open Settings(JSON)"
+
+### *Step 1: Installing VSCode:*
+
+This step is pretty self-explanatory. To download VSCode, go to https://code.visualstudio.com/
 
 Download the file as per your device and run it to set it up.
 
@@ -21,7 +26,7 @@ After the installation is complete, you should be greeted with a screen like thi
 ![Image 1](demo/img_1.png)
 
 ----
-### Step 2: Setting Up Python for VSCode:
+### *Step 2: Setting Up Python for VSCode:*
 
 First things first, go to the VSCode Extensions Panel (Ctrl+Shift+X on Windows)
 
@@ -53,14 +58,14 @@ Some of the features the Python Extension provides are:
 - Tests
 - Refactoring & More!
 ----
-#### Step 3: Making our workflow better:
+### *Step 3: Making our workflow better:*
 
 Now that we have installed the Python extension, we can run move onto the next part: 
-### Installing and using a Language Server
+**Installing and using a Language Server**
 
 ----
 
-#### What is a Python Language Server?
+**What is a Python Language Server?**
 
 A language server, to put it simply is a piece of software that makes our code writing experience better.
 
@@ -99,7 +104,7 @@ Common Error: If you do not see the popup, you can follow the following steps:
 
 ----
 
-#### Step 4: Installing linters and formatters:
+### *Step 4: Installing linters and formatters:*
 
 A python linter is a package which checks our code for errors and helps us to make better code
 
@@ -133,3 +138,41 @@ Steps to enable black:
 
 - You will get a popup asking you to install black if it isn't already.
 ![Image 8 B](demo/img_8_b.png)
+
+Now we have to ensure that we format and lint our file everytime we save our file.
+
+To do so, add the following lines to your setting.json file:
+
+```"python.linting.lintOnSave": true,```
+
+```"editor.formatOnSave": true```
+
+### *Step 5: Making VSCode less cluttered.*
+
+If you look at your VSCode Setup right now, you might be feeling that is a bit cluttered and not a very pleasant editor to look at.
+
+I'll be showing you how to fix that.
+
+----
+First part : Installing a custom font.
+
+The font that I recommend to others the most is JetBrains Mono. (Although you can use other fonts with font ligatures).
+
+Download JetBrains Mono from this link: https://download.jetbrains.com/fonts/JetBrainsMono-2.001.zip
+
+Extract the file to your desired location. Once extracted, open the folder and go the ***/ttf*** section.
+![Font Img](demo/img_9_a.png)
+
+Click on JetBrains Mono Regular and install it.
+
+![Reg](demo/img_9_b.png)
+
+Once that is done, we need to enable it in VSCode. To do so,
+
+add the following lines to your settings JSON file:
+
+```"editor.fontFamily":"JetBrains Mono",```
+
+```"editor.fontLigatures":true```
+
+(Font ligatures are a way of combining specific characters to make our code easier to read. To learn more about it, visit this [Link](https://www.hanselman.com/blog/MonospacedProgrammingFontsWithLigatures.aspx))
