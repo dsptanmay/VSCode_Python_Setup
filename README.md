@@ -20,18 +20,19 @@ After the installation is complete, you should be greeted with a screen like thi
 
 ![Image 1](demo/img_1.png)
 
-
+----
 ### Step 2: Setting Up Python for VSCode:
 
 First things first, go to the VSCode Extensions Panel (Ctrl+Shift+X on Windows)
 
 ![Image 2](demo/img_2.png)
 
+
 and search for Python.
 
 ![Image 3](demo/img_3.png)
 
-a
+
 Now, click on the Python Extension by Microsoft (It should be the first one)
 
 Click on install and wait for the installation to finish.
@@ -51,7 +52,7 @@ Some of the features the Python Extension provides are:
 - Code Linting
 - Tests
 - Refactoring & More!
-
+----
 #### Step 3: Making our workflow better:
 
 Now that we have installed the Python extension, we can run move onto the next part: 
@@ -86,4 +87,49 @@ Once it is installed, a window should popup asking you to make Pylance the defau
 
 Click on **Yes, and Reload**. 
 
-Once the window has reloaded, the Pylance server should automatically start analyzing your open Python Files.
+Once the window has reloaded, Pylance should automatically start analyzing your open Python Files.
+
+Common Error: If you do not see the popup, you can follow the following steps:
+
+- Open Settings(JSON) from the Command Palette
+- Add the following line to your settings.json file:
+    
+```"python.languageServer":"Pylance"```
+- If you see an error message saying "Value is not accepted", don't worry! Pylance is not officially in the settings documentation due to which it is shown as an error. **It will work nonetheless**
+
+----
+
+#### Step 4: Installing linters and formatters:
+
+A python linter is a package which checks our code for errors and helps us to make better code
+
+A python formatter is a package which formats our code according to a particular convention (Usually PEP)
+
+The linter that I personally use is : ```Pylint```.
+
+The formatter that I use is: ```Black```.
+
+To use Pylint as the default linter and black as the default formatter, we have to change a few settings.
+
+Steps to enable Pylint:
+- Open the Command Palette (Ctrl+Shift+P)
+- Search for Python Linter
+- Choose the option that says "Python: Select Linter"
+
+- Choose pylint as your linter.
+![Image 8 C](demo/img_8_c.png)
+
+- You will get a popup asking you to install pylint if you haven't already.
+![Image 8 A](demo/img_8_a.png)
+
+Steps to enable black:
+- Open Settings(UI) from the Command Palette.
+![Image 7 A](demo/img_7_a.png)
+
+- Search for Python Formatting Provider 
+![Image 7 B](demo/img_7_b.png)
+
+- Change the provider from autopep8 to **black**.
+
+- You will get a popup asking you to install black if it isn't already.
+![Image 8 B](demo/img_8_b.png)
