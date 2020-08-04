@@ -10,10 +10,17 @@ So, I decided to make my own guide!
 
 #### This guide also assumes that you have Python installed on your system already.
 
-Before we get started, here are is a common action that I will be referring to:
+Before we get started, here are are some common actions that I will be referring to:
+
+- Opening the command palette:
+    - It is a place where we can find all the actions of VSCode easily.
+    - To open it, use the shortcut Ctrl+Shift+P
 
 - Opening Settings.json/ adding lines to it.
     - to open Settings.json, hit Ctrl+Shift+P and search for Settings JSON and select the option that says "Preferences: Open Settings(JSON)"
+
+- Opening Settings UI:
+    - to open Settings UI, click on the gear icon on the activity bar.(Alternatively, you can search for Settings UI from the Command Palette)
 
 ### *Step 1: Installing VSCode:*
 
@@ -154,13 +161,13 @@ If you look at your VSCode Setup right now, you might be feeling that is a bit c
 I'll be showing you how to fix that.
 
 ----
-First part : Installing a custom font.
+**First part :** Installing a custom font.
 
 The font that I recommend to others the most is JetBrains Mono. (Although you can use other fonts with font ligatures).
 
 Download JetBrains Mono from this link: https://download.jetbrains.com/fonts/JetBrainsMono-2.001.zip
 
-Extract the file to your desired location. Once extracted, open the folder and go the ***/ttf*** section.
+Extract the file to your desired location. Once extracted, open the folder and go the ***/ttf*** folder.
 ![Font Img](demo/img_9_a.png)
 
 Click on JetBrains Mono Regular and install it.
@@ -176,3 +183,11 @@ add the following lines to your settings JSON file:
 ```"editor.fontLigatures":true```
 
 (Font ligatures are a way of combining specific characters to make our code easier to read. To learn more about it, visit this [Link](https://www.hanselman.com/blog/MonospacedProgrammingFontsWithLigatures.aspx))
+
+**Second Part:** Making the readibily better
+
+In our Current Setup, we have JetBrains Mono as our font but if you would notice, it doesn't look very easy to read.
+
+To fix this, we need to change a couple of settings in VSCode.
+
+Open Settings UI, and search for "Line Height"
