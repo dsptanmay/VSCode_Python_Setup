@@ -184,10 +184,53 @@ add the following lines to your settings JSON file:
 
 (Font ligatures are a way of combining specific characters to make our code easier to read. To learn more about it, visit this [Link](https://www.hanselman.com/blog/MonospacedProgrammingFontsWithLigatures.aspx))
 
-**Second Part:** Making the readibily better
+----
+**Second Part :** Making the readability better
 
 In our Current Setup, we have JetBrains Mono as our font but if you would notice, it doesn't look very easy to read.
 
 To fix this, we need to change a couple of settings in VSCode.
 
 Open Settings UI, and search for "Line Height"
+
+You should find two options like this:
+
+![Line Height](demo/img_10_a.png)
+
+**Change** the "Editor:Line Height" to ***40*** 
+
+**Change** the "Editor: Suggest Line Height" to ***40*** as well.
+
+You should notice immediately that the file you are working on looks much cleaner and easier to understand at a glance.
+
+While we are here, we will also be changing the font size from the default 14 to 16 simply for better viewing. (You are free to change it to whichever size you prefer)
+
+To change the font size, we once again go into Settings UI and this time, search for "Font Size"
+
+Change the Font Size from 14 to 16.
+
+![Font size](demo/img_10_b.png)
+
+----
+**Third Part :** Choosing a good theme
+
+A good theme is essential to any developer's workfow. Working on anything becomes much more fun if you are inclined to do so.
+
+The theme I am currently using is called ***"One Dark Darker"*** (By Joel Crosby). It is available on the Extensions Marketplace and is a port of the famous One Dark Theme.
+
+----
+![One Dark Darker](demo/img_10_c.png)
+
+----
+
+To use it simply search for it in the Extensions tab and click on install.
+
+(You can install any other theme to your liking.)
+
+**Fourth Part :** Decluttering the window
+
+Although VSCode has many useful sections within its window, these different sections take up a lot of space and make the workspace feel cluttered overall.
+
+*Section 1 :* Removing the Activity Bar
+
+The Activity Bar is 
